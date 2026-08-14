@@ -47,7 +47,7 @@ let
 in
 stdenv.mkDerivation (finalAttrs: {
   pname = "ds4";
-  version = "0-unstable-2026-06-27";
+  version = "0-unstable-2026-08-09";
 
   src = fetchFromGitHub {
     owner = "antirez";
