@@ -52,8 +52,8 @@ stdenv.mkDerivation (finalAttrs: {
   src = fetchFromGitHub {
     owner = "antirez";
     repo = "ds4";
-    rev = "84cc882352757baf628a1776badf7cc54d584e28";
-    hash = "sha256-mdvKxI+/vDQcrpHepvXPmYcTjPTRnqJWWU0UFFnLJJk=";
+    rev = "b0982a1b4ee9d0f157e600bfd102fbeac951a829";
+    hash = "sha256-UP2ZgjFZkmrucMG9dLTidr1nPq3pAnGQ6+9LgKOWvrU=";
   };
 
   # Tools that must be on PATH during the build:
