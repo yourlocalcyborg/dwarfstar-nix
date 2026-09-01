@@ -96,7 +96,7 @@ stdenv.mkDerivation (finalAttrs: {
       HIPCC=hipcc \
       ROCM_CFLAGS="-O3 -ffast-math -g -fno-finite-math-only -pthread -D__HIP_PLATFORM_AMD__ -Wno-unused-command-line-argument --offload-arch=${rocmArch} --rocm-device-lib-path=${deviceLibs} --gcc-install-dir=${gccInstallDir} -idirafter ${glibc.dev}/include ${includeFlags}" \
       DS4_LINK="g++" \
-      DS4_LINK_LIBS="-lm -pthread -lhipblas -lhipblaslt -lamdhip64 ${linkFlags}" \
+      DS4_LINK_LIBS="-lm -pthread -lhipblas -lhipblaslt -lamdhip64 -lrocblas ${linkFlags}" \
       -j$NIX_BUILD_CORES
 
     runHook postBuild
