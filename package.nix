@@ -55,7 +55,7 @@ stdenv.mkDerivation (finalAttrs: {
     "repo" = "ds4";
     "rev" = "110afdd8886586f18fc9b28bc5533152dd10e728";
     "hash" = "sha256-aqnlAAq4Yo8f1/+vJpk4a7zLnvQG/oGWD3G7tUtjV3s=";
-  }
+  };
 
 
   # Tools that must be on PATH during the build:
