@@ -51,11 +51,12 @@ stdenv.mkDerivation (finalAttrs: {
   version = "0-unstable-2026-08-09";
 
   src = fetchFromGitHub {
-    owner = "antirez";
-    repo = "ds4";
-    rev = "b0982a1b4ee9d0f157e600bfd102fbeac951a829";
-    hash = "sha256-UP2ZgjFZkmrucMG9dLTidr1nPq3pAnGQ6+9LgKOWvrU=";
-  };
+    "owner": "antirez",
+    "repo": "ds4",
+    "rev": "110afdd8886586f18fc9b28bc5533152dd10e728",
+    "hash": "sha256-aqnlAAq4Yo8f1/+vJpk4a7zLnvQG/oGWD3G7tUtjV3s="
+  }
+
 
   # Tools that must be on PATH during the build:
   #  - hipcc:        compiles the .cu device code
