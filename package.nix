@@ -30,6 +30,7 @@ let
     rocm.hipcub
     rocm.rocwmma
     rocm.rocprim
+    rocm.rocblas
   ];
   includeFlags = lib.concatMapStringsSep " " (p: "-I${p}/include") includePkgs;
 
