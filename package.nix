@@ -53,8 +53,8 @@ stdenv.mkDerivation (finalAttrs: {
   src = fetchFromGitHub {
     "owner" = "antirez";
     "repo" = "ds4";
-    "rev" = "b0a147a7fba6d1a104d047d5a140e9bb4bfc13cd";
-    "hash" = "sha256-sHpV49J+3EPHAKFO/aKolTZ16uCfaiX+WKgsDKNLNTU=";
+    "rev" = "6289c516273979173abbc062209a81dd3706b804";
+    "hash" = "sha256-L+1cUF/5xYG801UAoTecmgw8BhrB/rdgn/36V1u7JEo=";
   };
 
 
